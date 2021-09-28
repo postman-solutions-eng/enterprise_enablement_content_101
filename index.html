@@ -25,7 +25,7 @@
 					<p>
 						You're likely exploring this course if you're new to Postman or the API space, in general.
 					</p>
-					<p>Let's start by sharing a little about your needs from this course.</p>
+					<p>Let's start by exploring some stories that might drive your needs from this course.</p>
 				</section>
 				<section>
 					<h2>
@@ -52,36 +52,69 @@
 						<img src="images/apiRestaurant.png">
 					</section>
 					<section>
-						<ul>
-							<li>A client (the patron, or application, at the restaurant)</li>
-							<li>A waiter (the API, or middle service, at the restaurant)</li>
-							<li>A chef (the server that assembles data, or ingredients, and intimately knows the data structures of the database)</li>
-						</ul><br>
+						<code>A client</code> - the patron, or application, at the restaurant<br>
+						<code>A waiter</code> - the API, or middle service, at the restaurant<br>
+						<code>A chef</code> - the server that assembles data, or ingredients, and intimately knows the data structures of the database
+						<br></br>
 						<p>In this example, the API offered up a menu to the client from which the client could choose what to consume.</p>
 					</section>
 					<section>
 						<h2>How does Postman interact with APIs?</h2>
-						<p>Postman is a collaborative platform for building, using, and testing APIs. 
+						<p>Postman is a collaborative platform for building, using, and testing APIs. It uses HTTP, or hypertext transfer protocol, to transmit data in a request-response cycle.
 							<!-- insert statement about different types of users: beginners to development, QA engineers, software engineers, technical support, etc… to illustrate accessibility across a variety of roles -->
 							<!-- insert giphy of sending a request and reading a response in postman -->
 						</p>
+						<p> More than 10 million people use Postman and for many teams, Postman is an everyday tool used to interact with APIs.</p>
 					</section>
 					<section>
-						<p>Another tool often used by developers to interact with APIs is CURL. CURL is...</p>
-						<!-- insert curl giphy -->
+						<p>Another tool often used by developers to interact with APIs is cURL. cURL, which stands for client URL, is a command line tool that developers use to transfer data to and from a server. Sound familiar?</p>
+						<img src="images/curl.gif" alt="gif of curl command usage"/>
+					</section>
+					<section>
+						<p>Not all developers can work easily with walls of text and many prefer the graphical user interface Postman offers.</p>
+						<img src="images/postmanrequest.gif" alt="gif of postman usage"/>
 					</section>
 					<section>
 						<p>Here are some key competitive differentiators Postman has over other tools.</p>
 						<img src="images/differentiators.png">
 					</section>
-					<section data-background-iframe="https://www.youtube.com/embed/mKReG34IgAM" data-background-interactive></section>
-					<section>Knowledge Check!</section>
+					<section data-background-iframe="https://www.youtube.com/embed/mKReG34IgAM" data-background-interactive>
+					</section>
+					<section>
+						<h2>Knowledge Check!</h2>
+						<p>What are APIs and how does Postman use them?</p> <br>
+						<p>When you feel you can answer the question above, try practicing making requests along with Valentin Despa in this <a href="https://www.youtube.com/watch?v=7E60ZttwIpY&t=63s">introductory video.</a></introductory></p><br>
+						<p> When finished, select the <em>left arrow</em> to return to the story selection page.</p>
+						<!-- <p>When you feel you can answer this question, select the <strong>left arrow</strong> to go back to the stories slide and choose a new story or select the <strong>right arrow</strong> to move on to the next story.</p> -->
+					</section>
 				</section>
 				<section id="firstRequestAndTestSlides">
-					<section>firstRequestAndTest slide 1</section>
-					<section>firstRequestAndTest slide 2</section>
-					<section>firstRequestAndTest slide 3</section>
-					<section>Knowledge Check!</section>
+					<section>
+						<h2>Debugging and testing an API</h2>
+						<p>Debugging an API involves understanding the anatomy of a request and response from an API</p>
+						<img src="images/debugbootcamp.gif"/>
+					</section>
+					<section>
+						<p>Whenever we are transmitting data in either direction (whether getting information FROM a database or sending information TO a database), we are interacting with an API in a request-response cycle.</p>
+						<p>Some things we WILL find in a request are a Method and an Endpoint with a path.</p>
+						<img src="images/anatomeRequest.png"/>
+						<p>A request can also include Parameters, Headers, and a Body.</p>
+					</section>
+					<section>
+						<p>When testing an API, it's especially important to understand the anatomy of a response from the API.</p>
+						<p>Developers pay close attention to status codes, headers, and response bodies that APIs return.</p>
+						<img src="images/inspectResponse.gif"/>
+					</section>
+					<section>
+						<p>Postman allows developers to write their own tests, which can analyze response data in order to ensure the expected information is retrieved or sent.</p>
+						<p>For more practice testing APIs, watch Valentin Despa walk through the anatomy of a response and writing tests in this <a href="https://youtu.be/VywxIQ2ZXw4?t=3775">video.</a></p>
+					</section>
+					<section>
+						<h2>Knowledge Check!</h2>
+						<p>What steps should you take in Postman to test an API?</p><br>
+						<p>When you feel you can answer the question above, "test" your API testing skills by selecting any workspace, navigating to the bottom right of your Postman application or web browser, selecting <em>Bootcamp</em>, and taking the <em>Debugging and Manual Testing</em> mini course. </p>
+						<img src="images/navigateToDebug.png"/>
+					</section>
 				</section>
 			</div>
 		</div>
