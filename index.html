@@ -37,6 +37,7 @@
 					<ul>
 						<li><a href="#introSlides">"I want to understand what an API is and how Postman involves APIs"</a></li>
 						<li><a href="#firstRequestAndTestSlides">“I need to see if my API does what I expect it to do."</a></li>
+						<li><a href="#collaborationSlides">"I need my team to collaborate during the API lifecycle."</a></li>
 						<!-- <li>"I need to find an API that fits my project's use case."</li>
 						<li>"I want to see how Postman works with APIs"</li> -->
 					</ul>
@@ -44,7 +45,18 @@
 				<section id="introSlides">
 					<section>
 						<h2>What is an API?</h2><br>
-						<p>“API” stands for Application Programming Interface. It enables software to communicate with other software.</p>
+						<p>“API” stands for Application Programming Interface. APIs enables software to communicate with other software and they are the foundation of modern software development.</p>
+						<p>For an introduction to API-first development and a look into the API lifecycle, check out this <a href="https://youtu.be/VxY_cz0VQXE">short video. </a></p>
+					</section>
+					<section>
+						<h4>API Lifecycle</h4>
+						<img src="images/apiLifecycle.png"/>
+					</section>
+					<section>
+						<p>This graphic novel helps explain the benefits of being API-first. <a href="https://api-first-world.com/">Check it out. </a></p>
+						<img src="images/graphicNovel.png">
+					</section>
+					<section>
 						<p>Sometimes trickier concepts are more easily understood through analogies, so let’s imagine a digital restaurant in which there are three characters.</p>
 						<!-- content overflow to next 2 slides -->
 					</section>
@@ -52,11 +64,13 @@
 						<img src="images/apiRestaurant.png">
 					</section>
 					<section>
-						<code>A client</code> - the patron, or application, at the restaurant<br>
-						<code>A waiter</code> - the API, or middle service, at the restaurant<br>
+						<code>A client</code> - the patron, or application, at the restaurant<br></br>
+						<code>A waiter</code> - the API, or middle service, at the restaurant<br></br>
 						<code>A chef</code> - the server that assembles data, or ingredients, and intimately knows the data structures of the database
 						<br></br>
-						<p>In this example, the API offered up a menu to the client from which the client could choose what to consume.</p>
+					</section>
+					<section>
+						<p>In this example, the API offered up a menu to the client from which the client could choose what to consume. Watch Claire Froelich expand more on this example in this <a href="https://www.youtube.com/watch?v=mKReG34IgAM">video.</a></p>
 					</section>
 					<section>
 						<h2>How does Postman interact with APIs?</h2>
@@ -82,10 +96,6 @@
 					<section data-background-iframe="https://www.youtube.com/embed/mKReG34IgAM" data-background-interactive>
 					</section> -->
 					<section>
-						<p>Here's a graphic novel we like using to help people understand Postman's role in the API-first world. <a href="https://api-first-world.com/">Check it out. </a></p>
-						<img src="images/graphicNovel.png">
-					</section>
-					<section>
 						<h2>Knowledge Check!</h2>
 						<p>What are APIs and how does Postman use them?</p> <br>
 						<p>When you feel you can answer the question above, try practicing making requests along with Valentin Despa in this <a href="https://www.youtube.com/watch?v=7E60ZttwIpY&t=63s">introductory video.</a></introductory></p><br>
@@ -100,8 +110,8 @@
 						<img src="images/debugbootcamp.gif"/>
 					</section>
 					<section>
-						<p>Whenever we are transmitting data in either direction (whether getting information FROM a database or sending information TO a database), we are interacting with an API in a request-response cycle.</p>
-						<p>Some things we WILL find in a request are a Method and an Endpoint with a path.</p>
+						<p>Whenever we are transmitting data in either direction (whether getting information FROM a database or sending information TO a database), we are interacting with an API in a <strong>request-response cycle.</strong></p>
+						<p>Some things we would find in a request are a Method and an Endpoint with a Path.</p>
 						<img src="images/anatomeRequest.png"/>
 						<p>A request can also include Parameters, Headers, and a Body.</p>
 					</section>
@@ -111,7 +121,7 @@
 						<img src="images/inspectResponse.gif"/>
 					</section>
 					<section>
-						<p>Postman allows developers to write their own tests, which can analyze response data in order to ensure the expected information is retrieved or sent.</p>
+						<p>Postman allows developers to write their own <strong>tests</strong>, which can <strong>analyze response data</strong> in order to ensure the expected information was retrieved or sent.</p>
 						<p>For more practice testing APIs, watch Valentin Despa walk through the anatomy of a response and writing tests in this <a href="https://youtu.be/VywxIQ2ZXw4?t=3775">video.</a></p>
 					</section>
 					<section>
@@ -119,6 +129,14 @@
 						<p>What steps should you take in Postman to test an API?</p><br>
 						<p>When you feel you can answer the question above, "test" your API testing skills by selecting any workspace, navigating to the bottom right of your Postman application or web browser, selecting <em>Bootcamp</em>, and taking the <em>Debugging and Manual Testing</em> mini course. </p>
 						<img src="images/navigateToDebug.png"/>
+					</section>
+				</section>
+				<section id="collaborationSlides">
+					<section>
+						<h2>Collaboration in Postman</h2>
+					</section>
+					<section>
+						<p>...</p>
 					</section>
 				</section>
 			</div>
