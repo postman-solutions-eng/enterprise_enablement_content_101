@@ -6,9 +6,6 @@
 
 		<title>reveal.js</title>
 
-		<!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
@@ -31,19 +28,24 @@
 					<p>Let's start by exploring some stories that might drive your needs from this course.</p>
 				</section>
 				<section>
-					<h3>
-						Choose a module that most closely matches your needs.
-					</h3>
-					<p>
-						Clicking into any of the following will start you on your learning path:
-					</p>
-					<ul>
-						<li><a href="#introSlides">"I want to understand what an API is and how Postman involves APIs"</a></li>
-						<li><a href="#firstRequestAndTestSlides">“I need to see if my API does what I expect it to do."</a></li>
-						<li><a href="#collaborationSlides">"I need my team to collaborate during the API lifecycle."</a></li>
-						<!-- <li>"I need to find an API that fits my project's use case."</li>
-						<li>"I want to see how Postman works with APIs"</li> -->
-					</ul>
+					<div class="container">
+						<div class="row">
+								<h3>Select a module that most closely matches your needs to begin your learning path:</h3>
+						</div>
+						<br>
+						<div class="row">
+							<ul class="list-group">
+								<li class="list-group-item"><a href="#introSlides">"I want to understand what an API is and how Postman involves APIs"</a>
+								</li>
+								<li class="list-group-item"><a href="#firstRequestAndTestSlides">“I need to see if my API does what I expect it to do."</a>
+								</li>
+								<li class="list-group-item"><a href="#collaborationSlides">"I need my team to collaborate during the API lifecycle."</a>
+								</li>
+								<!-- <li>"I need to find an API that fits my project's use case."</li>
+								<li>"I want to see how Postman works with APIs"</li> -->
+							</ul>
+						</div>
+					</div>
 				</section>
 				<section id="introSlides">
 					<section>
@@ -141,22 +143,51 @@
 						<img src="images/workspaceIntro.gif"/>
 					</section>
 					<section>
-						<p>Workspaces allow users to <strong>group</strong> related APIs, collections, environments, mocks, and monitors. There are three categories of workspaces.</p> <br>
+						<p>Workspaces allow users to <strong>group</strong> related APIs, collections, environments, mocks, and monitors. There are four categories of workspaces.</p> <br>
 						<ol>
-							<li><strong>Public</strong> - Enable collaboration on entities with anyone across the world.</li>
-							<li><strong>Team</strong> - Access can be shared and managed with select collaborators.</li>
-							<li><strong>Personal</strong> - Visible only to you.</li>
+							<li>
+								<strong>Public</strong> - These workspaces enable collaboration on entities with anyone across the world.<a href="https://youtu.be/LYDtomysuBw">More info in this video.</a>
+							</li>
+							<li>
+								<strong>Team</strong> - These workspaces enable access to be shared and managed with select collaborators. <a href="https://youtu.be/5lscUV-Exac">More info in this video.</a>
+							</li>
+							<li>
+								<strong>Personal</strong> - These workspaces are visible only to you.
+							</li>
+							<li>
+								<strong>Private</strong> - Business and Enterprise users can limit visibility of this workspace to invited members.
+							</li>
 						</ol>
 					</section>
 					<section>
-						<p>...</p>
+						<h3>Roles in Postman</h3>
+						<p>Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements can modify the editor and viewer role on the element.</p>
+						<p>With these roles, you and your teammates can manage access for each individual, or, if you are on a Postman Enterprise plan, for groups.</p>
+					</section>
+					<section>
+						As an admin, you can manage roles by navigating to <br> <code>Team > Manage Team > Manage Roles</code> <img src="images/manageteam.png"> <br> <img src="images/manageRoles.png">
+					</section>
+					<section>
+						<h3>Sharing to Workspaces</h3>
+						<p>To share an API, collection, or environment, navigate to the left-most side of Postman to select the entity you wish to share. Then, from the dropdown in the "<code>...</code>" menu, select <code><strong>Share __</strong></code>.</p>
+						<p>In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.</p>
+						<img src="images/selectShare.png">      <img src="images/shareToWS.png">
+					</section>
+					<section>
+						<h3>Other Ways to Share</h3>
+						<p>In addition to sharing to workspaces, entities can be shared via embedding or public json link. </p>
+						<img src="images/shareViaLink.png">
+					</section>
+					<section>
+						<h3> Commenting</h3>
+						<p>Commenting allows teams to collaborate live while working on APIs in Postman. There are several ways to comment on various components within collections. Find more information about commenting in <a href="https://learning.postman.com/docs/collaborating-in-postman/commenting-on-collections/">this documentation.</a></p>
+					</section>
+					<section>
+						<h3>Version Control</h3>
 					</section>
 				</section>
 			</div>
 		</div>
-
-		<!-- Bootstrap script -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
