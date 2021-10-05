@@ -1,27 +1,17 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
-
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
-
-The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
-
-<h1>
-  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
+<h1 style="font-size: 3em;">
+  Training and Enablement - Postman 101 content
 </h1>
 
-## Documentation
-The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
+## Description
+This reveal.js slide deck seeks to offer self-serve learning content to enterprise associates hoping to explore Postman technology.
 
-## Online Editor
-Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
+## How to use this Content
+Fork and clone this repository. Open in VS Code. Use a previewing extension to preview in browser. Note - Once content creation and editing is completed, a shareable, public link will be generated and added here.
 
-## License
+## Mind Map to Generate Ideas and Direction
+![Training and Enablement Ideas](https://user-images.githubusercontent.com/60015240/136083390-779eaaf3-8dba-4c77-894d-4ef7367f9c30.jpg)
+
+## Reveal.js License Information
 
 MIT licensed
 
