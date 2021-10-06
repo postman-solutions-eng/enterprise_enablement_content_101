@@ -49,7 +49,20 @@
 				</section>
 				<section id="introSlides">
 					<section>
-						<h2>What is an API?</h2><br>
+						<h2>An introduction to APIs and Postman</h2>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="#whatsAnAPI">What is an API?</a>
+							</li>
+							<li class="list-group-item"><a href="#postmanAndAPIs">Postman and APIs</a>
+							</li>
+							<li class="list-group-item"><a href="#otherTools">Other Tools and Competitive Differentiators</a>
+							</li>
+							<li class="list-group-item"><a href="#knowledgeCheck1">Knowledge Check</a>
+							</li>
+						</ul>
+					</section>
+					<section id="whatsAnAPI">
+						<h3>What is an API?</h3><br>
 						<p>“API” stands for Application Programming Interface. APIs enables software to communicate with other software and they are the foundation of modern software development.</p>
 						<p>For an introduction to API-first development and a look into the API lifecycle, check out this <a href="https://youtu.be/VxY_cz0VQXE">short video. </a></p>
 					</section>
@@ -77,7 +90,7 @@
 					<section>
 						<p>In this example, the API offered up a menu to the client from which the client could choose what to consume. Watch Claire Froelich expand more on this example in this <a href="https://www.youtube.com/watch?v=mKReG34IgAM">video.</a></p>
 					</section>
-					<section>
+					<section id="postmanAndAPIs">
 						<h2>How does Postman interact with APIs?</h2>
 						<p>Postman is a collaborative platform for building, using, and testing APIs. It uses HTTP, or hypertext transfer protocol, to transmit data in a request-response cycle.
 							<!-- insert statement about different types of users: beginners to development, QA engineers, software engineers, technical support, etc… to illustrate accessibility across a variety of roles -->
@@ -85,7 +98,8 @@
 						</p>
 						<p> More than 10 million people use Postman and for many teams, Postman is an everyday tool used to interact with APIs.</p>
 					</section>
-					<section>
+					<section id="otherTools">
+						<h3>Other Tools and Competitive Differentiators</h3>
 						<p>Another tool often used by developers to interact with APIs is cURL. cURL, which stands for client URL, is a command line tool that developers use to transfer data to and from a server. Sound familiar?</p>
 						<img src="images/curl.gif" alt="gif of curl command usage"/>
 					</section>
@@ -97,10 +111,7 @@
 						<h4>Postman's key competitive differentiators</h4>
 						<img src="images/differentiators.png">
 					</section>
-					<!-- Caire Froelich video not able to embed 
-					<section data-background-iframe="https://www.youtube.com/embed/mKReG34IgAM" data-background-interactive>
-					</section> -->
-					<section>
+					<section id="knowledgeCheck1">
 						<h2>Knowledge Check!</h2>
 						<p>What are APIs and how does Postman use them?</p> <br>
 						<p>When you feel you can answer the question above, practice making requests along with Valentin Despa in this <a href="https://www.youtube.com/watch?v=7E60ZttwIpY&t=63s">introductory video.</a></introductory></p><br>
@@ -111,11 +122,22 @@
 				<section id="firstRequestAndTestSlides">
 					<section>
 						<h2>Debugging and testing an API</h2>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="#requestResponseCycle">Request-Response Cycle</a>
+							</li>
+							<li class="list-group-item"><a href="#tests">Tests</a>
+							</li>
+							<li class="list-group-item"><a href="#knowledgeCheck2">Knowledge Check</a>
+							</li>
+						</ul>
+					</section>
+					<section id="requestResponseCycle">
+						<h3>Request-Response Cycle</h3>
 						<p>Debugging an API involves understanding the anatomy of a request and response from an API.</p>
 						<img src="images/debugbootcamp.gif"/>
 					</section>
 					<section>
-						<p>Whenever we are transmitting data in either direction (whether getting information FROM a database or sending information TO a database), we are interacting with an API in a <strong>request-response cycle.</strong></p>
+						<p>Whenever we are transmitting data (whether information is coming FROM or going TO a database), we are interacting with an API in a <strong>request-response cycle.</strong></p>
 						<p>Some things we would find in a request are a Method and an Endpoint with a Path.</p>
 						<img src="images/anatomeRequest.png"/>
 						<p>A request can also include Parameters, Headers, and a Body.</p>
@@ -125,11 +147,12 @@
 						<p>Developers pay close attention to status codes, headers, and response bodies that APIs return.</p>
 						<img src="images/inspectResponse.gif"/>
 					</section>
-					<section>
+					<section id="tests">
+						<h3>Writing Tests</h3>
 						<p>Postman allows developers to write their own <strong>tests</strong>, which can <strong>analyze response data</strong> in order to ensure the expected information was retrieved or sent.</p>
 						<p>For more practice testing APIs, watch Valentin Despa walk through the anatomy of a response and writing tests in this <a href="https://youtu.be/VywxIQ2ZXw4?t=3775">video.</a></p>
 					</section>
-					<section>
+					<section id="knowledgeCheck2">
 						<h2>Knowledge Check!</h2>
 						<p>What steps should you take in Postman to test an API?</p><br>
 						<p>When you feel you can answer the question above, "test" your API testing skills by selecting any workspace, navigating to the bottom right of your Postman application or web browser, selecting <em>Bootcamp</em>, and taking the <em>Debugging and Manual Testing</em> mini course. </p>
@@ -139,6 +162,22 @@
 				<section id="collaborationSlides">
 					<section>
 						<h2>Collaboration in Postman</h2>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="#workspaces">Workspaces</a>
+							</li>
+							<li class="list-group-item"><a href="#roles">Roles</a>
+							</li>
+							<li class="list-group-item"><a href="#sharing">Sharing</a>
+							</li>
+							<li class="list-group-item"><a href="#commenting">Commenting</a>
+							</li>
+							<li class="list-group-item"><a href="#versionControl">Version Control</a>
+							</li>
+							<li class="list-group-item"><a href="#apiNetwork">API Network</a>
+							</li>
+						</ul>
+					</section>
+					<section id="workspaces">
 						<p>There are many different ways to collaborate within Postman. To begin, let's review some key concepts about workspaces.</p>
 						<img src="images/workspaceIntro.gif"/>
 					</section>
@@ -159,7 +198,7 @@
 							</li>
 						</ol>
 					</section>
-					<section>
+					<section id="roles">
 						<h3>Roles in Postman</h3>
 						<p>Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements can modify the editor and viewer role on the element.</p>
 						<p>With these roles, you and your teammates can manage access for each individual, or, if you are on a Postman Enterprise plan, for groups.</p>
@@ -167,7 +206,7 @@
 					<section>
 						As an admin, you can manage roles by navigating to <br> <code>Team > Manage Team > Manage Roles</code> <img src="images/manageteam.png"> <br> <img src="images/manageRoles.png">
 					</section>
-					<section>
+					<section id="sharing">
 						<h3>Sharing to Workspaces</h3>
 						<p>To share an API, collection, or environment, navigate to the left-most side of Postman to select the entity you wish to share. Then, from the dropdown in the "<code>...</code>" menu, select <code><strong>Share __</strong></code>.</p>
 						<p>In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.</p>
@@ -178,11 +217,20 @@
 						<p>In addition to sharing to workspaces, entities can be shared via embedding or public json link. </p>
 						<img src="images/shareViaLink.png">
 					</section>
-					<section>
+					<section id="commenting">
 						<h3> Commenting</h3>
 						<p>Commenting allows teams to collaborate live while working on APIs in Postman. There are several ways to comment on various components within collections. Find more information about commenting in <a href="https://learning.postman.com/docs/collaborating-in-postman/commenting-on-collections/">this documentation.</a></p>
+						<img src="images/commenting-on-a-collection-v8.gif">
+					</section>
+					<section id="apiNetwork">
+						<h3>API Network</h3>
+						<img src="images/publicNetwork.gif">
 					</section>
 					<section>
+						<p>The API network is a centralized repository of APIs, Collections, and Workspaces. It can be found by visiting <a href="https://explore.postman.com">explore.postman.com</a></p>
+						<p>You can use the API network to browse what others in the greater API community are building.</p>
+					</section>
+					<section id="versionControl">
 						<h3>Version Control</h3>
 					</section>
 				</section>
