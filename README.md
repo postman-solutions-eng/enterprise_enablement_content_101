@@ -10,7 +10,7 @@ Note - Once content creation and editing is completed, a shareable, public link 
 ### Mac Users
 Fork and clone this repository. Open in VS Code. Use a previewing extension to preview <strong>index.html</strong> in your default browser. 
 ### Windows Users
-Fork and clone this repository. Select option to "reveal in file explorer". Open with Microsoft Edge browser.
+Fork and clone this repository. Select option to "reveal in file explorer". Open <strong>index.html</strong> with Microsoft Edge browser.
 
 ## Mind Map to Generate Ideas and Direction
 ![Training and Enablement Ideas](https://user-images.githubusercontent.com/60015240/136083390-779eaaf3-8dba-4c77-894d-4ef7367f9c30.jpg)
