@@ -1,5 +1,5 @@
 <h1 style="font-size: 3em;">
-  Training and Enablement - Postman 101 content
+  Postman's Cosmic Courses: Fundamentals
 </h1>
 
 ## Description
