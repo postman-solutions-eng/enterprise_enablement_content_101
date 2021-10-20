@@ -69,6 +69,17 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 /*********************************************
+/* Added style for learning path section
+/*********************************************/
+.flex{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-shadow: 5px;
+}
+
+/*********************************************
  * HEADERS
  *********************************************/
 .reveal h1,
