@@ -6,7 +6,9 @@
 This reveal.js slide deck seeks to offer self-serve learning content to enterprise associates hoping to explore Postman technology.
 
 ## How to use this Content
-Note - Once content creation and editing is completed, a shareable, public link will be generated and added here.
+Note - Once content creation and editing is completed, a shareable, public link will be generated and added here. ![GitHub Pages Link](https://postman-solutions-eng.github.io/enterprise_enablement_content_101/)
+## Navigating within the presentation
+![presentationFlow](https://user-images.githubusercontent.com/60015240/140827129-2e128821-fdab-43ac-a0a4-1be6b8e6d125.jpg)
 ### Mac Users
 Fork and clone this repository. Open in VS Code. Use a previewing extension to preview <strong>index.html</strong> in your default browser. 
 ### Windows Users
